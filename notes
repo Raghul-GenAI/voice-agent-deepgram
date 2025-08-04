@@ -1,0 +1,8 @@
+  507  curl -LsSf https://astral.sh/uv/install.sh | sh
+  508      source $HOME/.local/bin/env (sh, bash, zsh)
+  509  source $HOME/.local/bin/env
+
+uv init .
+uv add websockets python-dotenv
+
+"model": "nova-3",
